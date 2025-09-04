@@ -8,6 +8,9 @@ export default {
         "gunmetal": "#202937",
         "prime": "#5046E0",
         "secondary": "#6366F1"
+      },
+      fontFamily: {
+        satoshi: ["satoshi-reg", "sans-serif"]
       }
     },
   },
