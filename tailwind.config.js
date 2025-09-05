@@ -10,7 +10,7 @@ export default {
         "secondary": "#6366F1"
       },
       fontFamily: {
-        satoshi: ["satoshi-reg", "sans-serif"]
+        satoshi: ["satoshi", "sans-serif"]
       }
     },
   },
