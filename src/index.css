@@ -36,7 +36,7 @@ h3 {
   @apply font-bold text-3xl text-gunmetal;
 }
 #benefits p{
-  @apply text-slate-gray text-lg;
+  @apply text-slate-gray text-xl;
 }
 #benefits img{
   @apply mt-[64px];

@@ -1,4 +1,5 @@
 import benefit1 from "../assets/images/benefit-one.png";
+import benefit2 from "../assets/images/benefit-two.png";
 
 function Part1(){
   return (
@@ -19,10 +20,27 @@ function Part1(){
 };
 
 
+function Part2(){
+  return (
+    <div className="flex flex-col gap-[24px]">
+      <img src={benefit2} alt="Benefits Image" />
+      <h3 className="mt-[8px]">
+        Offer more benefits here
+      </h3>
+      <p className="mb-[16px]">
+        You can use this same layout with a flip image to highlight your rest of the benefits of your product.
+        It can also contain an image or Illustration as above section along with some bullet points.
+      </p>
+    </div>
+  );
+};
+
+
 export default function Benefits(){
   return (
     <section id="benefits" className="flex flex-col gap-[8px]">
       <Part1 />
+      <Part2 />
     </section>
   );
 }
