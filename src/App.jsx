@@ -1,9 +1,11 @@
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="p-[32px]">
       <Header />
+      <Hero />
     </div>
   )
 }

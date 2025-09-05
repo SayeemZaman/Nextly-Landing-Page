@@ -6,3 +6,7 @@
   font-family: "satoshi-reg";
   src: url(./assets/fonts/Satoshi-Regular.otf);
 }
+
+section {
+  @apply py-[48px];
+}
