@@ -1,15 +1,23 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-function Feature({icn, title, desc}){
+function Feature({icn: Icon, title, desc}){
   return (
-    <div className="flex gap-[12px] my-[8px]">
+    <div className="flex gap-[12px] my-[24px] h-[96px]">
       <span className="bg-secondary aspect-square relative top-[4px] p-[4px] h-[48px] flex justify-center items-center rounded">
-        <FontAwesomeIcon icon={icn} size="lg" style={{color: "#ffffff"}} />
+        <Icon className="text-white w-[28px] h-[28px]" />
       </span>
       <div>
         <p className="font-medium !text-gunmetal !text-xl">{title}</p>
         <p className="!text-base">{desc}</p>
       </div>
+    </div>
+  );
+};
+
+export default function FeatureList({arr}){
+  return (
+    <div className="">
+      {arr.map((item, i) => (
+        <Feature key={i} icn={item.icn} title={item.title} desc={item.desc} />
+      ))}
     </div>
   );
 };
