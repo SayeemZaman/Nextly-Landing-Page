@@ -29,12 +29,6 @@ section {
 *{
   @apply font-satoshi; 
 }
-h2{
-  @apply font-bold text-prime text-center;
-}
-h3 {
-  @apply font-bold text-3xl text-gunmetal;
-}
 #benefits p{
   @apply text-slate-gray text-xl;
 }

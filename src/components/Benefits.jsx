@@ -2,6 +2,7 @@ import benefit1 from "../assets/images/benefit-one.png";
 import benefit2 from "../assets/images/benefit-two.png";
 import FeatureList from "./Features";
 import { FaceSmileIcon, ChartBarSquareIcon, CursorArrowRaysIcon, DevicePhoneMobileIcon, AdjustmentsVerticalIcon, SunIcon } from "@heroicons/react/24/outline";
+import Head from "./Head";
 
 const features1 = [
   {
@@ -42,11 +43,11 @@ const features2 = [
 function Part1(){
   return (
     <div className="flex flex-col gap-[12px]">
-      <h2>NEXTLY BENEFITS</h2>
-      <h3 className="text-center">Why should you use this landing page</h3>
-      <p className="text-center">
-        Nextly is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS. And its completely open-source.
-      </p>
+      <Head
+        head="NEXTLY BENEFITS"
+        title="Why should you use this landing page"
+        desc="Nextly is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS. And its completely open-source."
+      />
       <img src={benefit1} alt="Benefits Image" />
       <h3 className="mt-[16px]">Highlight your benefits</h3>
       <p>
