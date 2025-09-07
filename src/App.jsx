@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import Video from "./components/Video";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Benefits />
       <Video />
+      <Testimonials />
     </div>
   )
 }
