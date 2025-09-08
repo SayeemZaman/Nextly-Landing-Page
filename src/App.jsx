@@ -4,6 +4,7 @@ import Benefits from './components/Benefits';
 import Video from "./components/Video";
 import Testimonials from "./components/Testimonials";
 import FaqList from "./components/FaqList"
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Video />
       <Testimonials />
       <FaqList />
+      <Footer />
     </div>
   )
 }
