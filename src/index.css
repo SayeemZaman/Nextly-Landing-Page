@@ -29,9 +29,18 @@ section {
 *{
   @apply font-satoshi; 
 }
+#benefits h3{
+  @apply text-3xl font-bold;
+}
 #benefits p{
   @apply text-slate-gray text-xl;
 }
 #benefits img{
-  @apply mt-[64px];
+  @apply mt-[64px] lg:mt-0 w-full h-auto object-contain lg:max-h-[448px] !aspect-square;
+}
+#benefits .ben{
+  @apply my-[16px] lg:my-[32px] flex flex-col gap-[16px];
+}
+#benefits .content{
+  @apply flex flex-col gap-[24px] lg:flex-row lg:items-center lg:justify-center lg:my-[32px];
 }

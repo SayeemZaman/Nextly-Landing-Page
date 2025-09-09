@@ -42,19 +42,23 @@ const features2 = [
 
 function Part1(){
   return (
-    <div className="flex flex-col gap-[12px]">
+    <div className="ben gap-[12px]">
       <Head
         head="NEXTLY BENEFITS"
         title="Why should you use this landing page"
         desc="Nextly is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS. And its completely open-source."
       />
-      <img src={benefit1} alt="Benefits Image" />
-      <h3 className="mt-[16px]">Highlight your benefits</h3>
-      <p>
-        You can use this space to highlight your first benefit or a feature of your product.
-        It can also contain an image or Illustration like in the example along with some bullet points.
-      </p>
-      <FeatureList arr={features1} />
+      <div className="content">
+        <img src={benefit1} alt="Benefits Image" />
+        <div className="flex flex-col gap-[16px]">
+          <h3>Highlight your benefits</h3>
+          <p>
+            You can use this space to highlight your first benefit or a feature of your product.
+            It can also contain an image or Illustration like in the example along with some bullet points.
+          </p>
+          <FeatureList arr={features1} />
+        </div>
+      </div>
     </div>
   );
 };
@@ -62,16 +66,18 @@ function Part1(){
 
 function Part2(){
   return (
-    <div className="flex flex-col gap-[24px]">
+    <div className="ben content flex lg:!flex-row-reverse gap-[24px]">
       <img src={benefit2} alt="Benefits Image" />
-      <h3 className="mt-[8px]">
-        Offer more benefits here
-      </h3>
-      <p className="mb-[16px]">
-        You can use this same layout with a flip image to highlight your rest of the benefits of your product.
-        It can also contain an image or Illustration as above section along with some bullet points.
-      </p>
-      <FeatureList arr={features2} />
+      <div className="flex flex-col gap-[24px] lg:py-[32px]">
+        <h3>
+          Offer more benefits here
+        </h3>
+        <p className="mb-[16px]">
+          You can use this same layout with a flip image to highlight your rest of the benefits of your product.
+          It can also contain an image or Illustration as above section along with some bullet points.
+        </p>
+        <FeatureList arr={features2} />
+      </div>
     </div>
   );
 };
@@ -79,7 +85,7 @@ function Part2(){
 
 export default function Benefits(){
   return (
-    <section id="benefits" className="flex flex-col gap-[32px]">
+    <section id="benefits">
       <Part1 />
       <Part2 />
     </section>
