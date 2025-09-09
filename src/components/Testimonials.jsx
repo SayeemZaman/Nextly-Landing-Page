@@ -26,7 +26,7 @@ const data = [
 
 function TestimonialCard({desc, pfp, name, role}) {
   return (
-    <div className="bg-soft-white p-[48px] flex flex-col gap-[32px] rounded-[16px] my-[16px]">
+    <div className={`bg-soft-white p-[48px] flex flex-col gap-[32px] rounded-[16px] my-[16px] ${name === "Sarah Steiner" && "lg:col-span-2"}`}>
       <p className="text-2xl font-medium">{desc}</p>
       <div className="flex gap-[8px] items-center">
         <img src={pfp} alt="Profile picture of commentor" className="w-[48px] h-[48px] rounded-full" />
@@ -47,7 +47,7 @@ export default function Testimonials() {
         title="Here's what our customers said"
         desc="Testimonails is a great way to increase the brand trust and awareness. Use this section to highlight your popular customers."
       />
-      <div className="mt-[32px]">
+      <div className="mt-[32px] lg:grid lg:grid-cols-2 lg:gap-x-[32px]">
         {data.map((item, i) => (
           <TestimonialCard
             key={i}
