@@ -14,7 +14,7 @@ export default function Video(){
           So, don't forget to add one. Just like this.
         `}
       />
-      <div className="flex justify-center items-center rounded-[16px] mt-[64px] w-full h-[170px] bg-gradient-to-tr from-tropical-indigo to-palatinate-blue">
+      <div className="flex justify-center items-center rounded-[16px] mt-[64px] w-full h-[170px] md:h-[35dvh] lg:h-[80dvh] bg-gradient-to-tr from-tropical-indigo to-palatinate-blue">
         <span className="flex justify-center items-center rounded-full p-[20px] bg-white aspect-square">
           <FontAwesomeIcon icon={faPlay} size="2x" style={{color: "#6366F1"}} />
         </span>
