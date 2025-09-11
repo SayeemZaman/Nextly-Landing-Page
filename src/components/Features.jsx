@@ -5,8 +5,8 @@ function Feature({icn: Icon, title, desc}){
         <Icon className="text-white w-[28px] h-[28px]" />
       </span>
       <div>
-        <p className="font-medium !text-gunmetal !text-xl">{title}</p>
-        <p className="!text-base">{desc}</p>
+        <p className="font-medium !text-gunmetal !text-xl dark:!text-white">{title}</p>
+        <p className="!text-base dark:!text-white/75">{desc}</p>
       </div>
     </div>
   );

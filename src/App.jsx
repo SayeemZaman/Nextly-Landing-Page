@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="p-[32px] md:p-[48px]">
+    <div className="p-[32px] md:p-[48px] dark:bg-dark-bg">
       <Header />
       <Hero />
       <Benefits />

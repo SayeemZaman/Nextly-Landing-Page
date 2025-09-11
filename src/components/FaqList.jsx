@@ -23,7 +23,7 @@ const faqs = [
 function Faq({q,a}){
   return (
     <details className="group my-[32px] max-w-[512px] mx-auto">
-      <summary className="flex items-center justify-between list-none cursor-poiner bg-soft-white p-[16px] rounded-[8px] font-medium text-lg">
+      <summary className="flex items-center justify-between list-none cursor-poiner bg-soft-white dark:bg-slate-gray/20 dark:!text-white p-[16px] rounded-[8px] font-medium text-lg">
         {q}
         <ChevronDownIcon className="text-prime w-[16px] h-[16px] flex-shrink-0 group-open:rotate-180" />
       </summary>

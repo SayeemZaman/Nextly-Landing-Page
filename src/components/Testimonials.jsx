@@ -26,7 +26,7 @@ const data = [
 
 function TestimonialCard({desc, pfp, name, role}) {
   return (
-    <div className={`bg-soft-white p-[48px] flex flex-col gap-[32px] rounded-[16px] my-[16px] ${name === "Sarah Steiner" && "lg:col-span-2"}`}>
+    <div className={`bg-soft-white dark:bg-slate-gray/20 p-[48px] flex flex-col gap-[32px] rounded-[16px] my-[16px] ${name === "Sarah Steiner" && "lg:col-span-2"}`}>
       <p className="text-2xl font-medium">{desc}</p>
       <div className="flex gap-[8px] items-center">
         <img src={pfp} alt="Profile picture of commentor" className="w-[48px] h-[48px] rounded-full" />

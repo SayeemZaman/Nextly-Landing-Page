@@ -5,7 +5,7 @@ import { useState } from "react";
 function NavButton({fnc, isOpen}){
   return (
     <button onClick={fnc} aria-label="Open Navigation" className="absolute w-[40px] h-[32px] right-[32px] top-[32px]">
-      <FontAwesomeIcon icon={isOpen ? faXmark : faBars} size="xl" style={{color: "#202937"}} />
+      <FontAwesomeIcon icon={isOpen ? faXmark : faBars} size="xl" className="text-gunmetal dark:!text-white" />
     </button>
   );
 };
@@ -13,7 +13,7 @@ function NavButton({fnc, isOpen}){
 function NavLink({item}){
   return (
     <li className="my-[16px]">
-      <a href="#" className="font-satoshi font-medium">{item}</a>
+      <a href="#" className="font-satoshi font-medium dark:!text-white">{item}</a>
     </li>
   );
 };

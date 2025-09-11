@@ -1,7 +1,7 @@
 function NavLink({name}){
   return (
     <li>
-      <a href="#" className="text-slate-gray font-medium">{name}</a>
+      <a href="#" className="text-slate-gray dark:!text-white/70 font-medium">{name}</a>
     </li>
   );
 };
