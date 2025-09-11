@@ -42,7 +42,7 @@ export default function Footer(){
         <Social />
       </div>
       <p className="absolute text-center text-sm lg:text-lg bottom-0 w-full dark:!text-slate-gray">
-        © 2025 Nextly. Design is from Nextly template. <br />
+        © 2025 Nextly. Design is from ThemeWagon, Nextly template. <br />
         Icons are from Fontawesome & Heroicons.
       </p>
     </footer>
