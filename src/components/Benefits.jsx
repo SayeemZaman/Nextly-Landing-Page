@@ -49,7 +49,7 @@ function Part1(){
         desc="Nextly is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS. And its completely open-source."
       />
       <div className="content">
-        <img src={benefit1} alt="Benefits Image" />
+        <img src={benefit1} alt="Benefits Illustration" />
         <div className="flex flex-col gap-[16px]">
           <h3>Highlight your benefits</h3>
           <p>
@@ -67,7 +67,7 @@ function Part1(){
 function Part2(){
   return (
     <div className="ben content flex lg:!flex-row-reverse gap-[24px]">
-      <img src={benefit2} alt="Benefits Image" />
+      <img src={benefit2} alt="Benefits Illustration" />
       <div className="flex flex-col gap-[24px] lg:py-[32px]">
         <h3>
           Offer more benefits here

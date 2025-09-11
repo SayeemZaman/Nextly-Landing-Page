@@ -34,7 +34,7 @@ function Faq({q,a}){
 
 export default function FaqList(){
   return (
-    <section className="flex flex-col gap-[16px]">
+    <section id="faq" className="flex flex-col gap-[16px]">
       <Head
         head="FAQ"
         title="Frequently Asked Questions"

@@ -29,7 +29,7 @@ function TestimonialCard({desc, pfp, name, role}) {
     <div className={`bg-soft-white dark:bg-slate-gray/20 p-[48px] flex flex-col gap-[32px] rounded-[16px] my-[16px] ${name === "Sarah Steiner" && "lg:col-span-2"}`}>
       <p className="text-2xl font-medium">{desc}</p>
       <div className="flex gap-[8px] items-center">
-        <img src={pfp} alt="Profile picture of commentor" className="w-[48px] h-[48px] rounded-full" />
+        <img src={pfp} alt="Profile picture" className="w-[48px] h-[48px] rounded-full" />
         <div>
           <p className="text-gunmetal text-xl font-medium">{name}</p>
           <p className="text-lg">{role}</p>
@@ -41,7 +41,7 @@ function TestimonialCard({desc, pfp, name, role}) {
 
 export default function Testimonials() {
   return (
-    <section className="flex flex-col gap-[16px]">
+    <section id="testimonials" className="flex flex-col gap-[16px]">
       <Head
         head="TESTIMONIALS"
         title="Here's what our customers said"

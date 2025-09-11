@@ -27,7 +27,7 @@ export default function Footer(){
     <footer className="lg:flex lg:justify-between pb-[48px] relative">
       <div className="lg:max-w-[256px]">
         <div className="flex gap-[8px] items-center my-[16px] lg:!max-w-[256px]">
-          <img className="w-[32px]" src={logo} alt="Logo" />
+          <img className="w-[32px]" src={logo} alt="Nextly Logo" />
           <p className="font-medium text-prime text-2xl">Nextly</p>
         </div>
         <p className="text-slate-gray text-lg">
